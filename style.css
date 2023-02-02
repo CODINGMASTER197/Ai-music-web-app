@@ -1,0 +1,29 @@
+body{
+    background-size: cover;
+}
+.note{
+    font-size: 15px;
+    color: aqua;
+}
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+.song_change{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aquamarine;
+    box-shadow: 10px 10px 10px red;
+    width: fit-content;
+}
+canvas{
+    border: 10px solid burlywood;
+    animation-name: surya;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes surya{
+    from{box-shadow: 10px 10px 10px red;}
+    to{box-shadow: 10px 10px 10px yellow;}
+}
