@@ -10,8 +10,8 @@ body{
     width: 100%;
     margin: 0px;
 }
-.song_change{
-    font-size: 15px;
+#song{
+    font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: aquamarine;
     box-shadow: 10px 10px 10px red;
